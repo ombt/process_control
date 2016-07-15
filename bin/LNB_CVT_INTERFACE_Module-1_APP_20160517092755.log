@@ -1,0 +1,292 @@
+INFO	2016/05/17 09:27:55.786	src/AppLogger.C	217	******************** STARTING INFO LOGGING ********************
+INFO	2016/05/17 09:27:55.786	src/AppLogger.C	219	##@@lnb_interface Version 7.0.0.0 05/17/16 09:10:26
+DEBUG	2016/05/17 09:27:55.787	src/AppLogger.C	275	******************** STARTING DEBUG LOGGING ********************
+INFO	2016/05/17 09:27:55.787	src/LNBCVTInterface.C	1045	Starting CVT LNB Interface for Module-1
+INFO	2016/05/17 09:27:55.787	src/EventTriggerMgr.C	133	IDENT: AppName=[LNB CVT Interface(Module-1)] AppId=[1004] MailboxId=[8] PID=[29732]
+INFO	2016/05/17 09:27:55.816	src/KXMachineFeederSetup.EC	275	CONFIG: Intelligent Supply Program Mode=Software
+INFO	2016/05/17 09:27:55.816	src/KXMachineFeederSetup.EC	278	CONFIG: Empty Exhausted Reel Mode=OFF
+INFO	2016/05/17 09:27:55.816	src/KXMachineFeederSetup.EC	281	CONFIG: Peer Sync Enabled=OFF
+INFO	2016/05/17 09:27:55.816	src/KXMachineFeederSetup.EC	285	CONFIG: Custom Area 3 Contents=Operator Id
+INFO	2016/05/17 09:27:55.816	src/KXMachineFeederSetup.EC	288	CONFIG: Empty MSD Expired Reel Mode=OFF
+INFO	2016/05/17 09:27:55.816	src/KXMachineFeederSetup.EC	291	CONFIG: Splice Miss Lock Percentage=0
+INFO	2016/05/17 09:27:55.816	src/KXMachineFeederSetup.EC	294	CONFIG: Elink Material Create Mode=OFF
+INFO	2016/05/17 09:27:55.840	src/KXMachineFeederSetup.EC	227	CONFIG: Component Count Source = 2
+DEBUG	2016/05/17 09:27:55.843	src/NPMMachineSetup.C	407	CONFIG: Equip: Zone-1-Machine-1 - Setup Audit Only Configured for Presetup Mounts.
+DEBUG	2016/05/17 09:27:55.865	src/SetupAuditMachineManager.EC	4158	Init  Times
+DEBUG	2016/05/17 09:27:55.876	src/EquipLockStatus.C	415	Lock configs: Production 0x000093ad, startup 0x0000800c
+DEBUG	2016/05/17 09:27:55.876	src/EquipLockStatus.C	2207	Updates required due to Activate Persistent; 1 changes since last update
+DEBUG	2016/05/17 09:27:55.876	src/EquipLockStatus.C	2257	Clearing program change flag due to disabled event type
+DEBUG	2016/05/17 09:27:55.877	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_LockStatusMsg , MessageType = LCKST_MSG , MessageId = 65535 , MessageReply = 0 , EquipmentId = 1004 , LockStatusOverall = 0 , IgnoreStatusOverall = 0 , ProtocolLockStatus = 0 , ListSize = 0
+DEBUG	2016/05/17 09:27:55.877	src/LNBLockStatus.C	431	Canceling all pending Panel Displays for 1
+DEBUG	2016/05/17 09:27:55.877	src/LNBLockStatus.C	299	Sending RELEASE to machine, reason Activate Persistent
+DEBUG	2016/05/17 09:27:55.877	src/LNBCVTInterface.C	6760	Queuing Release msg
+DEBUG	2016/05/17 09:27:55.877	src/LNBCVTInterface.C	6850	Dequeued Release failed
+DEBUG	2016/05/17 09:27:55.877	src/LNBCVTInterface.C	6861	Processing release result on 1
+DEBUG	2016/05/17 09:27:55.877	src/LNBCVTInterface.C	7230	Recursing do_send_next_interlock
+DEBUG	2016/05/17 09:27:55.877	src/LNBCVTInterface.C	7190	No queued interlocks
+INFO	2016/05/17 09:27:55.877	src/EquipLockStatus.C	538	Loaded 0, cleared 0 uncleared, activated 0 for 1004: result 1
+INFO	2016/05/17 09:27:55.877	src/NPMMachineSetup.C	466	CONFIG: Use Bulk Replacement Mode=OFF
+INFO	2016/05/17 09:27:55.877	src/NPMMachineSetup.C	467	CONFIG: Force Complete Tray Setup Mode=OFF
+INFO	2016/05/17 09:27:55.877	src/NPMMachineSetup.C	468	CONFIG: Stackable Stick Feeder Mode=By Stick
+DEBUG	2016/05/17 09:27:55.878	src/EI_Logger.C	373	(E/I->P/M)  , MessageSource = -1 , MessageDestination = 0 , MessageClass = MC_FilterListMsg , MessageType = FILTER_LIST_ADD , MessageId = 65535 , MessageReply = 0 , ListSize = 46 , MailboxId = -1 , ApplicationType = 18 , ApplicationId = 65798199 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 1 , MessageType = 1002 , MailboxId = -1 , ApplicationType = 18 , ApplicationId = 65798199 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 1 , MessageType = 1003 , MailboxId = -1 , ApplicationType = 44 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 1 , MessageType = 1002 , MailboxId = -1 , ApplicationType = 44 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 1 , MessageType = 1003 , MailboxId = -1 , ApplicationType = 36 , ApplicationId = 8 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 1 , MessageType = 1002 , MailboxId = -1 , ApplicationType = 36 , ApplicationId = 8 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 1 , MessageType = 1003 , MailboxId = -1 , ApplicationType = 36 , ApplicationId = 11 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 1 , MessageType = 1002 , MailboxId = -1 , ApplicationType = 36 , ApplicationId = 11 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 1 , MessageType = 1003 , MailboxId = -1 , ApplicationType = 45 , ApplicationId = -1 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 1 , MessageType = 1002 , MailboxId = -1 , ApplicationType = 45 , ApplicationId = -1 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 1 , MessageType = 1003 , MailboxId = -1 , ApplicationType = 45 , ApplicationId = -1 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 53 , MessageType = 53013 , MailboxId = -1 , ApplicationType = 56 , ApplicationId = 0 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 1 , MessageType = 1002 , MailboxId = -1 , ApplicationType = 56 , ApplicationId = 0 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 1 , MessageType = 1003 , MailboxId = -1 , ApplicationType = 10 , ApplicationId = 0 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 1 , MessageType = 1003 , MailboxId = -1 , ApplicationType = 80 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 1 , MessageType = 1002 , MailboxId = -1 , ApplicationType = 80 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 1 , MessageType = 1003 , MailboxId = -1 , ApplicationType = 80 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 69 , MessageType = 69001 , MailboxId = -1 , ApplicationType = 80 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 69 , MessageType = 69003 , MailboxId = -1 , ApplicationType = 72 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 1 , MessageType = 1003 , MailboxId = -1 , ApplicationType = 72 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 118 , MessageType = -1 , MailboxId = -1 , ApplicationType = 72 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 59 , MessageType = 59009 , MailboxId = -1 , ApplicationType = 72 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 59 , MessageType = 59010 , MailboxId = -1 , ApplicationType = 72 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 59 , MessageType = 59011 , MailboxId = -1 , ApplicationType = 72 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 59 , MessageType = 59014 , MailboxId = -1 , ApplicationType = 72 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 126 , MessageType = 126009 , MailboxId = -1 , ApplicationType = 72 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 126 , MessageType = 126011 , MailboxId = -1 , ApplicationType = 66 , ApplicationId = -1 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 116 , MessageType = -1 , MailboxId = -1 , ApplicationType = 36 , ApplicationId = -1 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 146 , MessageType = 146001 , MailboxId = -1 , ApplicationType = 36 , ApplicationId = -1 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 126 , MessageType = -1 , MailboxId = -1 , ApplicationType = -1 , ApplicationId = -1 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 139 , MessageType = -1 , MailboxId = -1 , ApplicationType = -1 , ApplicationId = -1 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 0 , MessageType = 1 , MailboxId = -1 , ApplicationType = -1 , ApplicationId = -1 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 57 , MessageType = -1 , MailboxId = -1 , ApplicationType = -1 , ApplicationId = -1 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 107 , MessageType = -1 , MailboxId = -1 , ApplicationType = -1 , ApplicationId = -1 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 163 , MessageType = 163001 , MailboxId = -1 , ApplicationType = -1 , ApplicationId = -1 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 70 , MessageType = -1 , MailboxId = -1 , ApplicationType = 1 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 43 , MessageType = 43005 , MailboxId = -1 , ApplicationType = 1 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 43 , MessageType = 43008 , MailboxId = -1 , ApplicationType = 1 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 43 , MessageType = 43004 , MailboxId = -1 , ApplicationType = 1 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 95 , MessageType = 95001 , MailboxId = -1 , ApplicationType = 1 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 55 , MessageType = 55002 , MailboxId = -1 , ApplicationType = 1 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 185 , MessageType = -1 , MailboxId = -1 , ApplicationType = 1 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 37 , MessageType = -1 , MailboxId = -1 , ApplicationType = -1 , ApplicationId = -1 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 67 , MessageType = 1004 , MailboxId = -1 , ApplicationType = -1 , ApplicationId = -1 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 154 , MessageType = 1004 , MailboxId = -1 , ApplicationType = -1 , ApplicationId = -1 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 68 , MessageType = 1004 , MailboxId = -1 , ApplicationType = -1 , ApplicationId = -1 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , MessageClass = 194 , MessageType = 194001
+DEBUG	2016/05/17 09:27:55.878	src/EI_Logger.C	373	(E/I->P/M)  , MessageSource = -1 , MessageDestination = 0 , MessageClass = MC_PMIdentityMsg , MessageType = ID_PM_QUERY , MessageId = 65535 , MessageReply = 0 , MailboxId = -1 , ApplicationType = 18 , ApplicationId = 65798199 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , HangCheckDuration = 0 , ListSize = 0
+DEBUG	2016/05/17 09:27:55.878	src/EI_Logger.C	373	(E/I->P/M)  , MessageSource = 8 , MessageDestination = 0 , MessageClass = MC_PMIdentityMsg , MessageType = ID_PM_QUERY , MessageId = 65535 , MessageReply = 0 , MailboxId = -1 , ApplicationType = 80 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , HangCheckDuration = 0 , ListSize = 0
+DEBUG	2016/05/17 09:27:55.878	src/EI_Logger.C	373	(E/I->P/M)  , MessageSource = 8 , MessageDestination = 0 , MessageClass = MC_PMIdentityMsg , MessageType = ID_PM_QUERY , MessageId = 65535 , MessageReply = 0 , MailboxId = -1 , ApplicationType = 44 , ApplicationId = 1004 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , HangCheckDuration = 0 , ListSize = 0
+DEBUG	2016/05/17 09:27:55.878	src/EI_Logger.C	373	(E/I->P/M)  , MessageSource = 8 , MessageDestination = 0 , MessageClass = MC_PMIdentityMsg , MessageType = ID_PM_QUERY , MessageId = 65535 , MessageReply = 0 , MailboxId = -1 , ApplicationType = 45 , ApplicationId = -1 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , HangCheckDuration = 0 , ListSize = 0
+DEBUG	2016/05/17 09:27:55.878	src/EI_Logger.C	373	(E/I->P/M)  , MessageSource = 8 , MessageDestination = 0 , MessageClass = MC_PMIdentityMsg , MessageType = ID_PM_QUERY , MessageId = 65535 , MessageReply = 0 , MailboxId = -1 , ApplicationType = 56 , ApplicationId = 0 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , HangCheckDuration = 0 , ListSize = 0
+DEBUG	2016/05/17 09:27:55.878	src/EI_Logger.C	373	(E/I->P/M)  , MessageSource = 8 , MessageDestination = 0 , MessageClass = MC_PMIdentityMsg , MessageType = ID_PM_QUERY , MessageId = 65535 , MessageReply = 0 , MailboxId = -1 , ApplicationType = 10 , ApplicationId = 0 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , HangCheckDuration = 0 , ListSize = 0
+DEBUG	2016/05/17 09:27:55.878	src/EI_Logger.C	373	(E/I->P/M)  , MessageSource = 8 , MessageDestination = 0 , MessageClass = MC_PMIdentityMsg , MessageType = ID_PM_QUERY , MessageId = 65535 , MessageReply = 0 , MailboxId = -1 , ApplicationType = 36 , ApplicationId = 8 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , HangCheckDuration = 0 , ListSize = 0
+DEBUG	2016/05/17 09:27:55.878	src/EI_Logger.C	373	(E/I->P/M)  , MessageSource = 8 , MessageDestination = 0 , MessageClass = MC_PMIdentityMsg , MessageType = ID_PM_QUERY , MessageId = 65535 , MessageReply = 0 , MailboxId = -1 , ApplicationType = 36 , ApplicationId = 11 , ApplicationName = "" , ApplicationPID = -1 , ApplicationGID = -1 , ApplicationHostname = "" , ApplicationDisplay = "" , HangCheckDuration = 0 , ListSize = 0
+DEBUG	2016/05/17 09:27:55.878	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_LNBStatusMsg , MessageType =  , MessageId = 65535 , MessageReply = 0 , ApplicationId = 1004 , EquipmentState = 13 , CommunicationState = 2 , ApplicationType = 55
+DEBUG	2016/05/17 09:27:55.879	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_ExhaustListMsg , MessageType = EL_MTYPE , MessageId = 65535 , MessageReply = 0 , ZoneId = 1005 , EquipmentId = 1004 , Timestamp = 1463495275 , ExhaustListSize = 0 , SpliceNoCheckListSize = 0 , SpliceAlertListSize = 0 , PulledOutInListSize = 0
+DEBUG	2016/05/17 09:27:55.879	src/KXMachineFeederSetup.EC	7938	Sending Setup Check entries
+DEBUG	2016/05/17 09:27:55.879	src/KXMachineFeederSetup.EC	7954	Sending 0 setup check entries
+DEBUG	2016/05/17 09:27:55.879	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_PendingSetupListMsg , MessageType = PSL_MTYPE , MessageId = 65535 , MessageReply = 0 , ZoneId = 1005 , EquipmentId = 1004 , Timestamp = 1463495275 , ListSize = 0
+DEBUG	2016/05/17 09:27:55.879	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_SetupAuditStatusMsg , MessageType = SAS_STATUS_MSG , MessageId = 65535 , MessageReply = 0 , EquipmentId = 1004 , ModuleId = 1004 , SetupAuditId = -1 , SetupAuditStartTime = 0 , SetupAuditCompleteTime = 0 , SetupAuditType = -1 , AuditStatus = 1 , NextAuditStartTime = 0 , FrontAuditStartTime = 0 , FrontAuditCompleteTime = 0 , MachineFrontStatus = 2 , RearAuditStartTime = 0 , RearAuditCompleteTime = 0 , MachineRearStatus = 2
+DEBUG	2016/05/17 09:27:55.879	src/EI_Logger.C	373	last message repeated 1 times.
+DEBUG	2016/05/17 09:27:55.879	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_LockStatusMsg , MessageType = LCKST_MSG , MessageId = 65535 , MessageReply = 0 , EquipmentId = 1004 , LockStatusOverall = 0 , IgnoreStatusOverall = 0 , ProtocolLockStatus = 14 , ListSize = 0
+DEBUG	2016/05/17 09:27:55.879	src/LNBLockStatus.C	431	Canceling all pending Panel Displays for 1
+DEBUG	2016/05/17 09:27:55.879	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_Message , MessageType = M_STATUSREQUEST , MessageId = 65535 , MessageReply = 0
+INFO	2016/05/17 09:27:55.879	src/LNBCVTInterface.C	1084	CONFIG: Tray Part Scanning Mode=OFF
+INFO	2016/05/17 09:27:55.879	src/LNBCVTInterface.C	1085	CONFIG: Gang Write Mode=OFF
+INFO	2016/05/17 09:27:55.879	src/LNBCVTInterface.C	1086	CONFIG: Feeder Anywhere Mode=OFF
+INFO	2016/05/17 09:27:55.879	src/LNBCVTInterface.C	1087	CONFIG: Main/Splice Write Mode=OFF
+INFO	2016/05/17 09:27:55.879	src/LNBCVTInterface.C	1088	CONFIG: Health Check Mode=OFF
+INFO	2016/05/17 09:27:55.879	src/LNBCVTInterface.C	1089	CONFIG: MV Material Id Mode=OFF
+INFO	2016/05/17 09:27:55.879	src/LNBCVTInterface.C	1090	CONFIG: FCMS Mode=0
+INFO	2016/05/17 09:27:55.879	src/LNBCVTInterface.C	1092	CONFIG: Replenishing Exhausted Locs by Splice Scan=OFF
+INFO	2016/05/17 09:27:55.879	src/LNBCVTInterface.C	1094	CONFIG: Processing LNB Scanner Parts Events=OFF
+INFO	2016/05/17 09:27:55.879	src/LNBCVTInterface.C	1096	CONFIG: Tray RFID MODE =OFF
+INFO	2016/05/17 09:27:55.879	src/LNBCVTInterface.C	1125	CONFIG: Invalid/Restricted Components Monitoring=Global
+INFO	2016/05/17 09:27:55.879	src/LNBCVTInterface.C	1127	ROUTE: Invalid/Restricted Components=Disabled
+INFO	2016/05/17 09:27:55.880	src/LNBCVTInterface.C	1147	Mobile Scanner Validate Login=Disabled
+INFO	2016/05/17 09:27:55.880	src/LNBCVTInterface.C	725	CONFIG: Component Sync Interval is 90 seconds
+DEBUG	2016/05/17 09:27:55.880	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_PMIdentityMsg , MessageType = ID_END_RESPONSE , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:27:55.880	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_PMIdentityMsg , MessageType = ID_RESPONSE , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:27:55.880	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_PMIdentityMsg , MessageType = ID_END_RESPONSE , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:27:55.881	src/EI_Logger.C	373	last message repeated 6 times.
+DEBUG	2016/05/17 09:27:55.881	src/EI_Logger.C	373	(009->E/I)  , MessageSource = 9 , MessageDestination = 8 , MessageClass = MC_LNBStatusMsg , MessageType =  , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:27:55.881	src/EI_Logger.C	373	(010->???)  , MessageSource = 10 , MessageDestination = -1 , MessageClass = MC_CurrentProgramMsg , MessageType = CP_NCPROGRAM , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:27:55.881	src/NPMMachineSetup.C	3573	Equip: Zone-1-Machine-1 - Processing current program msg
+DEBUG	2016/05/17 09:27:55.881	src/SetupAuditMachineManager.EC	3170	Process current program equip_id = 1004, msg equip_id = 1004
+DEBUG	2016/05/17 09:27:55.881	src/KXMachineFeederSetup.EC	7938	Sending Setup Check entries
+DEBUG	2016/05/17 09:27:55.881	src/KXMachineFeederSetup.EC	7954	Sending 0 setup check entries
+DEBUG	2016/05/17 09:27:55.881	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_PendingSetupListMsg , MessageType = PSL_MTYPE , MessageId = 65535 , MessageReply = 0 , ZoneId = 1005 , EquipmentId = 1004 , Timestamp = 1463495275 , ListSize = 0
+DEBUG	2016/05/17 09:27:55.881	src/SetupAuditMachineManager.EC	1705	Setup Audit Check Presetup Interlock
+DEBUG	2016/05/17 09:27:55.883	src/EI_Logger.C	373	(010->E/I)  , MessageSource = 10 , MessageDestination = 8 , MessageClass = MC_CurrentProgramMsg , MessageType = CP_NCPROGRAM , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:27:55.883	src/NPMMachineSetup.C	3573	Equip: Zone-1-Machine-1 - Processing current program msg
+DEBUG	2016/05/17 09:27:55.883	src/SetupAuditMachineManager.EC	3170	Process current program equip_id = 1004, msg equip_id = 1004
+DEBUG	2016/05/17 09:27:55.883	src/KXMachineFeederSetup.EC	7938	Sending Setup Check entries
+DEBUG	2016/05/17 09:27:55.883	src/KXMachineFeederSetup.EC	7954	Sending 0 setup check entries
+DEBUG	2016/05/17 09:27:55.883	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_PendingSetupListMsg , MessageType = PSL_MTYPE , MessageId = 65535 , MessageReply = 0 , ZoneId = 1005 , EquipmentId = 1004 , Timestamp = 1463495275 , ListSize = 0
+DEBUG	2016/05/17 09:27:55.883	src/SetupAuditMachineManager.EC	1705	Setup Audit Check Presetup Interlock
+DEBUG	2016/05/17 09:27:55.884	src/EI_Logger.C	373	(010->E/I)  , MessageSource = 10 , MessageDestination = 8 , MessageClass = MC_MESStrackMsg , MessageType = MES_ST_PANEL_STATUS , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:27:55.884	src/EI_Logger.C	373	last message repeated 1 times.
+DEBUG	2016/05/17 09:27:55.884	src/EI_Logger.C	373	(010->E/I)  , MessageSource = 10 , MessageDestination = 8 , MessageClass = MC_EquipmentStatusMsg , MessageType = ES_STATUS_MSG , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:27:55.884	src/EI_Logger.C	373	(007->E/I)  , MessageSource = 7 , MessageDestination = 8 , MessageClass = MC_LNBStatusMsg , MessageType =  , MessageId = 65535 , MessageReply = 0
+INFO	2016/05/17 09:28:00.884	src/LNBInterface.C	721	Trying to connect
+DEBUG	2016/05/17 09:28:00.887	src/SocketClient.C	423	SocketClient connect error Connection refused after select + getsockopt returned errno
+DEBUG	2016/05/17 09:28:10.892	src/LNBLockStatus.C	299	last message repeated 2 times.
+DEBUG	2016/05/17 09:28:10.892	src/LNBLockStatus.C	299	Sending RELEASE to machine, reason Lock Violation
+DEBUG	2016/05/17 09:28:10.892	src/LNBCVTInterface.C	6760	Queuing Release msg
+DEBUG	2016/05/17 09:28:10.892	src/LNBCVTInterface.C	6850	Dequeued Release failed
+DEBUG	2016/05/17 09:28:10.892	src/LNBCVTInterface.C	6861	Processing release result on 1
+DEBUG	2016/05/17 09:28:10.892	src/LNBCVTInterface.C	7230	Recursing do_send_next_interlock
+DEBUG	2016/05/17 09:28:10.892	src/LNBCVTInterface.C	7190	No queued interlocks
+DEBUG	2016/05/17 09:28:15.895	src/SocketClient.C	423	SocketClient connect error Connection refused after select + getsockopt returned errno
+DEBUG	2016/05/17 09:28:25.899	src/LNBLockStatus.C	299	last message repeated 2 times.
+DEBUG	2016/05/17 09:28:25.899	src/LNBLockStatus.C	299	Sending RELEASE to machine, reason Lock Violation
+DEBUG	2016/05/17 09:28:25.899	src/LNBCVTInterface.C	6760	Queuing Release msg
+DEBUG	2016/05/17 09:28:25.899	src/LNBCVTInterface.C	6850	Dequeued Release failed
+DEBUG	2016/05/17 09:28:25.899	src/LNBCVTInterface.C	6861	Processing release result on 1
+DEBUG	2016/05/17 09:28:25.899	src/LNBCVTInterface.C	7230	Recursing do_send_next_interlock
+DEBUG	2016/05/17 09:28:25.899	src/LNBCVTInterface.C	7190	No queued interlocks
+DEBUG	2016/05/17 09:28:30.902	src/SocketClient.C	423	SocketClient connect error Connection refused after select + getsockopt returned errno
+DEBUG	2016/05/17 09:28:40.908	src/LNBLockStatus.C	299	last message repeated 2 times.
+DEBUG	2016/05/17 09:28:40.908	src/LNBLockStatus.C	299	Sending RELEASE to machine, reason Lock Violation
+DEBUG	2016/05/17 09:28:40.908	src/LNBCVTInterface.C	6760	Queuing Release msg
+DEBUG	2016/05/17 09:28:40.908	src/LNBCVTInterface.C	6850	Dequeued Release failed
+DEBUG	2016/05/17 09:28:40.908	src/LNBCVTInterface.C	6861	Processing release result on 1
+DEBUG	2016/05/17 09:28:40.908	src/LNBCVTInterface.C	7230	Recursing do_send_next_interlock
+DEBUG	2016/05/17 09:28:40.908	src/LNBCVTInterface.C	7190	No queued interlocks
+DEBUG	2016/05/17 09:28:45.911	src/SocketClient.C	423	SocketClient connect error Connection refused after select + getsockopt returned errno
+DEBUG	2016/05/17 09:28:55.915	src/LNBLockStatus.C	299	last message repeated 2 times.
+DEBUG	2016/05/17 09:28:55.915	src/LNBLockStatus.C	299	Sending RELEASE to machine, reason Lock Violation
+DEBUG	2016/05/17 09:28:55.915	src/LNBCVTInterface.C	6760	Queuing Release msg
+DEBUG	2016/05/17 09:28:55.915	src/LNBCVTInterface.C	6850	Dequeued Release failed
+DEBUG	2016/05/17 09:28:55.915	src/LNBCVTInterface.C	6861	Processing release result on 1
+DEBUG	2016/05/17 09:28:55.915	src/LNBCVTInterface.C	7230	Recursing do_send_next_interlock
+DEBUG	2016/05/17 09:28:55.915	src/LNBCVTInterface.C	7190	No queued interlocks
+DEBUG	2016/05/17 09:29:00.917	src/SocketClient.C	423	SocketClient connect error Connection refused after select + getsockopt returned errno
+DEBUG	2016/05/17 09:29:10.922	src/LNBLockStatus.C	299	last message repeated 2 times.
+DEBUG	2016/05/17 09:29:10.922	src/LNBLockStatus.C	299	Sending RELEASE to machine, reason Lock Violation
+DEBUG	2016/05/17 09:29:10.923	src/LNBCVTInterface.C	6760	Queuing Release msg
+DEBUG	2016/05/17 09:29:10.923	src/LNBCVTInterface.C	6850	Dequeued Release failed
+DEBUG	2016/05/17 09:29:10.923	src/LNBCVTInterface.C	6861	Processing release result on 1
+DEBUG	2016/05/17 09:29:10.923	src/LNBCVTInterface.C	7230	Recursing do_send_next_interlock
+DEBUG	2016/05/17 09:29:10.923	src/LNBCVTInterface.C	7190	No queued interlocks
+DEBUG	2016/05/17 09:29:15.925	src/SocketClient.C	423	SocketClient connect error Connection refused after select + getsockopt returned errno
+INFO	2016/05/17 09:29:25.927	src/LNBInterface.C	721	last message repeated 1 times.
+INFO	2016/05/17 09:29:25.927	src/LNBInterface.C	721	Trying to connect
+DEBUG	2016/05/17 09:29:25.930	src/SocketClient.C	423	SocketClient connect error Connection refused after select + getsockopt returned errno
+DEBUG	2016/05/17 09:29:25.930	src/LNBLockStatus.C	299	Sending RELEASE to machine, reason Lock Violation
+DEBUG	2016/05/17 09:29:25.930	src/LNBCVTInterface.C	6760	Queuing Release msg
+DEBUG	2016/05/17 09:29:25.930	src/LNBCVTInterface.C	6850	Dequeued Release failed
+DEBUG	2016/05/17 09:29:25.930	src/LNBCVTInterface.C	6861	Processing release result on 1
+DEBUG	2016/05/17 09:29:25.930	src/LNBCVTInterface.C	7230	Recursing do_send_next_interlock
+DEBUG	2016/05/17 09:29:25.930	src/LNBCVTInterface.C	7190	No queued interlocks
+DEBUG	2016/05/17 09:29:30.931	src/SocketClient.C	423	SocketClient connect error Connection refused after select + getsockopt returned errno
+DEBUG	2016/05/17 09:29:40.937	src/LNBLockStatus.C	299	last message repeated 2 times.
+DEBUG	2016/05/17 09:29:40.937	src/LNBLockStatus.C	299	Sending RELEASE to machine, reason Lock Violation
+DEBUG	2016/05/17 09:29:40.937	src/LNBCVTInterface.C	6760	Queuing Release msg
+DEBUG	2016/05/17 09:29:40.937	src/LNBCVTInterface.C	6850	Dequeued Release failed
+DEBUG	2016/05/17 09:29:40.937	src/LNBCVTInterface.C	6861	Processing release result on 1
+DEBUG	2016/05/17 09:29:40.937	src/LNBCVTInterface.C	7230	Recursing do_send_next_interlock
+DEBUG	2016/05/17 09:29:40.937	src/LNBCVTInterface.C	7190	No queued interlocks
+DEBUG	2016/05/17 09:29:40.997	src/EI_Logger.C	373	(010->???)  , MessageSource = 10 , MessageDestination = -1 , MessageClass = MC_EquipmentEventMsg , MessageType = EE_PRODUCTION_MSG , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:29:41.082	src/EI_Logger.C	373	(010->???)  , MessageSource = 10 , MessageDestination = -1 , MessageClass = MC_CurrentProgramMsg , MessageType = CP_NCPROGRAM , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:29:41.082	src/NPMMachineSetup.C	3573	Equip: Zone-1-Machine-1 - Processing current program msg
+INFO	2016/05/17 09:29:41.082	src/NPMMachineSetup.C	3617	Not setting chg start time on lane 0, starting up
+INFO	2016/05/17 09:29:41.082	src/NPMMachineSetup.C	3617	Not setting chg start time on lane 1, starting up
+INFO	2016/05/17 09:29:41.092	src/NPMMachineSetup.C	3737	No DB change for setup/equip 1007/1004
+DEBUG	2016/05/17 09:29:41.097	src/SetupAuditMachineManager.EC	3170	last message repeated 1 times.
+DEBUG	2016/05/17 09:29:41.097	src/SetupAuditMachineManager.EC	3170	Process current program equip_id = 1004, msg equip_id = 1004
+DEBUG	2016/05/17 09:29:41.127	src/SetupAuditMachineManager.EC	3268	Performing feeder status evaluation with  initial current program
+DEBUG	2016/05/17 09:29:41.127	src/SetupAuditMachineManager.EC	1492	Evaluating audit feeder status with current setup id product feeders
+DEBUG	2016/05/17 09:29:41.127	src/SetupAuditMachineManager.EC	1756	Setup Audit Status Check
+DEBUG	2016/05/17 09:29:41.128	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_SetupAuditStatusMsg , MessageType = SAS_STATUS_MSG , MessageId = 65535 , MessageReply = 0 , EquipmentId = 1004 , ModuleId = 1004 , SetupAuditId = -1 , SetupAuditStartTime = 0 , SetupAuditCompleteTime = 0 , SetupAuditType = -1 , AuditStatus = 1 , NextAuditStartTime = 0 , FrontAuditStartTime = 0 , FrontAuditCompleteTime = 0 , MachineFrontStatus = 2 , RearAuditStartTime = 0 , RearAuditCompleteTime = 0 , MachineRearStatus = 2
+DEBUG	2016/05/17 09:29:41.128	src/SetupAuditMachineManager.EC	3268	last message repeated 1 times.
+DEBUG	2016/05/17 09:29:41.128	src/SetupAuditMachineManager.EC	3268	Performing feeder status evaluation with  initial current program
+DEBUG	2016/05/17 09:29:41.128	src/SetupAuditMachineManager.EC	1492	Evaluating audit feeder status with current setup id product feeders
+DEBUG	2016/05/17 09:29:41.128	src/SetupAuditMachineManager.EC	1756	Setup Audit Status Check
+DEBUG	2016/05/17 09:29:41.128	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_SetupAuditStatusMsg , MessageType = SAS_STATUS_MSG , MessageId = 65535 , MessageReply = 0 , EquipmentId = 1004 , ModuleId = 1004 , SetupAuditId = -1 , SetupAuditStartTime = 0 , SetupAuditCompleteTime = 0 , SetupAuditType = -1 , AuditStatus = 1 , NextAuditStartTime = 0 , FrontAuditStartTime = 0 , FrontAuditCompleteTime = 0 , MachineFrontStatus = 2 , RearAuditStartTime = 0 , RearAuditCompleteTime = 0 , MachineRearStatus = 2
+DEBUG	2016/05/17 09:29:41.128	src/SetupAuditMachineManager.EC	4251	last message repeated 1 times.
+DEBUG	2016/05/17 09:29:41.128	src/SetupAuditMachineManager.EC	4251	Initialize Start Up
+DEBUG	2016/05/17 09:29:41.147	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_ExhaustListMsg , MessageType = EL_MTYPE , MessageId = 65535 , MessageReply = 0 , ZoneId = 1005 , EquipmentId = 1004 , Timestamp = 1463495381 , ExhaustListSize = 0 , SpliceNoCheckListSize = 0 , SpliceAlertListSize = 0 , PulledOutInListSize = 0
+DEBUG	2016/05/17 09:29:41.165	src/KXMachineFeederSetup.EC	7938	last message repeated 1 times.
+DEBUG	2016/05/17 09:29:41.165	src/KXMachineFeederSetup.EC	7938	Sending Setup Check entries
+DEBUG	2016/05/17 09:29:41.165	src/KXMachineFeederSetup.EC	7954	Sending 0 setup check entries
+DEBUG	2016/05/17 09:29:41.165	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_PendingSetupListMsg , MessageType = PSL_MTYPE , MessageId = 65535 , MessageReply = 0 , ZoneId = 1005 , EquipmentId = 1004 , Timestamp = 1463495381 , ListSize = 0
+DEBUG	2016/05/17 09:29:41.166	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_ExhaustListMsg , MessageType = EL_MTYPE , MessageId = 65535 , MessageReply = 0 , ZoneId = 1005 , EquipmentId = 1004 , Timestamp = 1463495381 , ExhaustListSize = 0 , SpliceNoCheckListSize = 0 , SpliceAlertListSize = 0 , PulledOutInListSize = 0
+DEBUG	2016/05/17 09:29:41.166	src/EquipLockStatus.C	1992	Setting program change flag due to current program
+DEBUG	2016/05/17 09:29:41.166	src/LNBLockStatus.C	783	Shared Mount Mode for product 1001
+DEBUG	2016/05/17 09:29:41.166	src/LNBLockStatus.C	826	Including product 1001 on lane 0 in front list
+DEBUG	2016/05/17 09:29:41.166	src/LNBLockStatus.C	832	Including product 1001 on lane 0 in rear list
+DEBUG	2016/05/17 09:29:41.166	src/LNBLockStatus.C	783	Shared Mount Mode for product 1001
+DEBUG	2016/05/17 09:29:41.166	src/DbEquipLockStatus.EC	140	Checking reels (1001, 1002, 1003, 1004, 1005) for inv/res
+DEBUG	2016/05/17 09:29:41.166	src/LNBLockStatus.C	854	Front/rear products: 1/1
+DEBUG	2016/05/17 09:29:41.168	src/EquipLockStatus.C	1907	Disregarding lock clearance request: Clear request does not match any current instance
+DEBUG	2016/05/17 09:29:41.168	src/EquipLockStatus.C	3262	last message repeated 3 times.
+DEBUG	2016/05/17 09:29:41.168	src/EquipLockStatus.C	3262	Inv/Res: 1 main, 1 splice, 0 net chg
+INFO	2016/05/17 09:29:41.170	src/EquipLockStatus.C	1811	Accepting lock clearance request for disabled event type 10
+DEBUG	2016/05/17 09:29:41.170	src/EquipLockStatus.C	1907	Disregarding lock clearance request: Clear request does not match any current instance
+DEBUG	2016/05/17 09:29:41.170	src/EquipLockStatus.C	2631	Clearing program change flag due to complete setup
+DEBUG	2016/05/17 09:29:41.170	src/EquipLockStatus.C	2773	Updating lock instances via setup check
+DEBUG	2016/05/17 09:29:41.170	src/EquipLockStatus.C	2269	No updates required after Program Change, no changes since last update
+DEBUG	2016/05/17 09:29:41.170	src/EquipLockStatus.C	930	Skipping init timer for equip 1004
+DEBUG	2016/05/17 09:29:41.170	src/SetupAuditMachineManager.EC	1705	Setup Audit Check Presetup Interlock
+INFO	2016/05/17 09:29:41.171	src/NPMMachineSetup.C	3809	Clearing startup current program flag - first CurrentProgram
+DEBUG	2016/05/17 09:29:45.173	src/SocketClient.C	423	SocketClient connect error Connection refused after select + getsockopt returned errno
+DEBUG	2016/05/17 09:29:55.180	src/SocketClient.C	413	last message repeated 1 times.
+DEBUG	2016/05/17 09:29:55.180	src/SocketClient.C	413	SocketClient init OK after select + getsockopt ok
+DEBUG	2016/05/17 09:29:55.180	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_LNBStatusMsg , MessageType =  , MessageId = 65535 , MessageReply = 0 , ApplicationId = 1004 , EquipmentState = 13 , CommunicationState = 0 , ApplicationType = 55
+DEBUG	2016/05/17 09:29:55.180	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_ExhaustListMsg , MessageType = EL_MTYPE , MessageId = 65535 , MessageReply = 0 , ZoneId = 1005 , EquipmentId = 1004 , Timestamp = 1463495395 , ExhaustListSize = 0 , SpliceNoCheckListSize = 0 , SpliceAlertListSize = 0 , PulledOutInListSize = 0
+DEBUG	2016/05/17 09:29:55.180	src/KXMachineFeederSetup.EC	7938	Sending Setup Check entries
+DEBUG	2016/05/17 09:29:55.180	src/KXMachineFeederSetup.EC	7954	Sending 0 setup check entries
+DEBUG	2016/05/17 09:29:55.180	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_PendingSetupListMsg , MessageType = PSL_MTYPE , MessageId = 65535 , MessageReply = 0 , ZoneId = 1005 , EquipmentId = 1004 , Timestamp = 1463495395 , ListSize = 0
+DEBUG	2016/05/17 09:29:55.180	src/SetupAuditMachineManager.EC	1756	Setup Audit Status Check
+DEBUG	2016/05/17 09:29:55.181	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_SetupAuditStatusMsg , MessageType = SAS_STATUS_MSG , MessageId = 65535 , MessageReply = 0 , EquipmentId = 1004 , ModuleId = 1004 , SetupAuditId = -1 , SetupAuditStartTime = 0 , SetupAuditCompleteTime = 0 , SetupAuditType = -1 , AuditStatus = 1 , NextAuditStartTime = 0 , FrontAuditStartTime = 0 , FrontAuditCompleteTime = 0 , MachineFrontStatus = 2 , RearAuditStartTime = 0 , RearAuditCompleteTime = 0 , MachineRearStatus = 2
+DEBUG	2016/05/17 09:29:55.181	src/EI_Logger.C	373	last message repeated 1 times.
+DEBUG	2016/05/17 09:29:55.181	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_LockStatusMsg , MessageType = LCKST_MSG , MessageId = 65535 , MessageReply = 0 , EquipmentId = 1004 , LockStatusOverall = 0 , IgnoreStatusOverall = 0 , ProtocolLockStatus = 14 , ListSize = 0
+DEBUG	2016/05/17 09:29:55.181	src/LNBLockStatus.C	431	Canceling all pending Panel Displays for 1
+DEBUG	2016/05/17 09:29:55.181	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_LNBStatusMsg , MessageType =  , MessageId = 65535 , MessageReply = 0 , ApplicationId = 1004 , EquipmentState = 13 , CommunicationState = 0 , ApplicationType = 55
+DEBUG	2016/05/17 09:29:55.181	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_ExhaustListMsg , MessageType = EL_MTYPE , MessageId = 65535 , MessageReply = 0 , ZoneId = 1005 , EquipmentId = 1004 , Timestamp = 1463495395 , ExhaustListSize = 0 , SpliceNoCheckListSize = 0 , SpliceAlertListSize = 0 , PulledOutInListSize = 0
+DEBUG	2016/05/17 09:29:55.181	src/KXMachineFeederSetup.EC	7938	Sending Setup Check entries
+DEBUG	2016/05/17 09:29:55.181	src/KXMachineFeederSetup.EC	7954	Sending 0 setup check entries
+DEBUG	2016/05/17 09:29:55.181	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_PendingSetupListMsg , MessageType = PSL_MTYPE , MessageId = 65535 , MessageReply = 0 , ZoneId = 1005 , EquipmentId = 1004 , Timestamp = 1463495395 , ListSize = 0
+DEBUG	2016/05/17 09:29:55.181	src/SetupAuditMachineManager.EC	1756	Setup Audit Status Check
+DEBUG	2016/05/17 09:29:55.182	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_SetupAuditStatusMsg , MessageType = SAS_STATUS_MSG , MessageId = 65535 , MessageReply = 0 , EquipmentId = 1004 , ModuleId = 1004 , SetupAuditId = -1 , SetupAuditStartTime = 0 , SetupAuditCompleteTime = 0 , SetupAuditType = -1 , AuditStatus = 1 , NextAuditStartTime = 0 , FrontAuditStartTime = 0 , FrontAuditCompleteTime = 0 , MachineFrontStatus = 2 , RearAuditStartTime = 0 , RearAuditCompleteTime = 0 , MachineRearStatus = 2
+DEBUG	2016/05/17 09:29:55.182	src/EI_Logger.C	373	last message repeated 1 times.
+DEBUG	2016/05/17 09:29:55.182	src/EI_Logger.C	373	(E/I->???)  , MessageSource = -1 , MessageDestination = -1 , MessageClass = MC_LockStatusMsg , MessageType = LCKST_MSG , MessageId = 65535 , MessageReply = 0 , EquipmentId = 1004 , LockStatusOverall = 0 , IgnoreStatusOverall = 0 , ProtocolLockStatus = 14 , ListSize = 0
+DEBUG	2016/05/17 09:29:55.182	src/LNBLockStatus.C	431	Canceling all pending Panel Displays for 1
+INFO	2016/05/17 09:29:55.182	src/LNBInterface.C	734	LNB Link connected to LNB
+DEBUG	2016/05/17 09:29:55.182	src/LNBInterface.C	647	Sending Connect Request Msg
+INFO	2016/05/17 09:29:55.182	src/EI_Logger.C	369	DATA OUT: <?xml version="1.0" encoding="UTF-8"?><root><Header><CommandName>Connect</CommandName><SystemName>PanaCIM</SystemName><SystemVersion>1.00</SystemVersion><SessionId>1</SessionId><ConnectOption>1</ConnectOption><ResultCode>0</ResultCode></Header></root>
+DEBUG	2016/05/17 09:29:55.182	src/LNBLockStatus.C	299	Sending RELEASE to machine, reason Lock Violation
+DEBUG	2016/05/17 09:29:55.182	src/LNBCVTInterface.C	6760	Queuing Release msg
+DEBUG	2016/05/17 09:29:55.182	src/LNBCVTInterface.C	6850	Dequeued Release failed
+DEBUG	2016/05/17 09:29:55.182	src/LNBCVTInterface.C	6861	Processing release result on 1
+DEBUG	2016/05/17 09:29:55.182	src/LNBCVTInterface.C	7230	Recursing do_send_next_interlock
+DEBUG	2016/05/17 09:29:55.182	src/LNBCVTInterface.C	7190	No queued interlocks
+INFO	2016/05/17 09:29:55.185	src/EI_Logger.C	369	DATA IN: <?xml version="1.0" encoding="UTF-8"?><root><Header><CommandName>Connect</CommandName><SystemName>PanaCIM</SystemName><SystemVersion>1.00</SystemVersion><SessionId>1</SessionId><ConnectOption>1</ConnectOption><ResultCode>0</ResultCode></Header></root>
+DEBUG	2016/05/17 09:29:55.185	src/LNBInterface.C	462	Received Connect Msg
+DEBUG	2016/05/17 09:29:55.185	src/LNBInterface.C	470	Received Connect Response Msg
+DEBUG	2016/05/17 09:29:55.185	src/LNBInterface.C	488	Connection handshake established.
+DEBUG	2016/05/17 09:30:10.185	src/LNBLockStatus.C	299	Sending RELEASE to machine, reason Lock Violation
+DEBUG	2016/05/17 09:30:10.185	src/LNBCVTInterface.C	6760	Queuing Release msg
+INFO	2016/05/17 09:30:10.185	src/LNBLink.C	735	COMM DATA STATS: Start Time:[05/17/16 09:27:55]  Data In:[259B]  Data Out:[647B]  Msgs In:[1]  Msgs Out:[2]
+INFO	2016/05/17 09:30:10.185	src/EI_Logger.C	369	DATA OUT: <?xml version="1.0" encoding="UTF-8"?><root><Header><CommandName>InterlockRelease</CommandName><SystemName>PanaCIM</SystemName><SystemVersion>1.00</SystemVersion><SessionId>2</SessionId><ConnectOption>1</ConnectOption><ResultCode>0</ResultCode></Header><InterlockRelease><Element><MCNo>1</MCNo><Type>1</Type><ProductionSide>0</ProductionSide></Element></InterlockRelease></root>
+DEBUG	2016/05/17 09:30:10.185	src/LNBCVTInterface.C	6845	Dequeued Release OK
+DEBUG	2016/05/17 09:30:10.185	src/LNBCVTInterface.C	6861	Processing release result on 1
+DEBUG	2016/05/17 09:30:10.185	src/LNBCVTInterface.C	7235	Send succeeded, start timer
+DEBUG	2016/05/17 09:30:10.185	src/LNBCVTInterface.C	7190	No queued interlocks
+INFO	2016/05/17 09:30:10.188	src/EI_Logger.C	369	DATA IN: <?xml version="1.0" encoding="UTF-8"?><root><Header><CommandName>InterlockRelease</CommandName><SystemName>PanaCIM</SystemName><SystemVersion>1.00</SystemVersion><SessionId>2</SessionId><ConnectOption>1</ConnectOption><ResultCode>0</ResultCode></Header><InterlockRelease><Element><MCNo>1</MCNo><Type>1</Type><ProductionSide>0</ProductionSide></Element></InterlockRelease></root>
+DEBUG	2016/05/17 09:30:10.188	src/LNBCVTInterface.C	7084	Release command acknowledged by LNB
+DEBUG	2016/05/17 09:34:55.290	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:34:55.291	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:39:55.496	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:39:55.497	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:44:55.809	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:44:55.810	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:49:55.020	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:49:55.021	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:54:55.297	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:54:55.297	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:59:55.513	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 09:59:55.514	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:04:55.789	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:04:55.789	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:09:55.012	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:09:55.012	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:14:55.251	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:14:55.252	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:19:55.432	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:19:55.432	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:24:55.255	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:24:55.255	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:29:55.352	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:29:55.353	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:34:55.658	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:34:55.659	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:39:55.886	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:39:55.886	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:44:55.212	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:44:55.213	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:49:55.383	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:49:55.383	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:54:55.650	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:54:55.651	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:59:55.820	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 10:59:55.820	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:04:55.123	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:04:55.124	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:09:55.295	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:09:55.295	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:14:55.564	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:14:55.565	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:19:55.726	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:19:55.726	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:24:55.036	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:24:55.037	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:29:55.160	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:29:55.161	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:34:55.430	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:34:55.431	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:39:55.645	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:39:55.645	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:44:55.918	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:44:55.918	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:49:55.129	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:49:55.129	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:54:55.401	src/EI_Logger.C	373	(P/M->E/I)  , MessageSource = 0 , MessageDestination = 8 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0
+DEBUG	2016/05/17 11:54:55.402	src/EI_Logger.C	373	(P/M->P/M)  , MessageSource = 0 , MessageDestination = 0 , MessageClass = MC_Message , MessageType = M_PING , MessageId = 65535 , MessageReply = 0

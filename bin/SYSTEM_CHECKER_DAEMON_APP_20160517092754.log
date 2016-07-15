@@ -1,0 +1,961 @@
+INFO	2016/05/17 09:27:54.875	src/AppLogger.C	217	******************** STARTING INFO LOGGING ********************
+INFO	2016/05/17 09:27:54.875	src/AppLogger.C	219	##@@system_checker_daemon Version 7.0.0.0 05/17/16 09:06:31
+INFO	2016/05/17 09:27:54.875	src/Main.C	156	Starting CIMC System Checker Daemon
+INFO	2016/05/17 09:28:00.904	src/ProductionAlerts.C	343	Number of event entries: 501
+ERROR	2016/05/17 09:28:00.905	src/ProductionAlerts.C	488	Invalid syntax production alert record: PROD_ALERT_ID	OPERATION	EVENT_MNEMONIC
+INFO	2016/05/17 09:28:00.905	src/ProductionAlerts.C	429	Skipping NULL or comment line ... <>
+INFO	2016/05/17 09:28:00.906	src/ProductionAlerts.C	429	last message repeated 19 times.
+INFO	2016/05/17 09:28:00.906	src/ProductionAlerts.C	429	Skipping NULL or comment line ... <# PA00021	CLEAR	IDD_CIMC_DB_SQL_RESULT_SUCCESS>
+INFO	2016/05/17 09:28:00.906	src/ProductionAlerts.C	429	Skipping NULL or comment line ... <# PA00021	SET	IDD_CIMC_DB_SQL_ERROR_COLUMN_NOT_FOUND>
+INFO	2016/05/17 09:28:00.906	src/ProductionAlerts.C	429	Skipping NULL or comment line ... <# PA00021	SET	IDD_CIMC_DB_SQL_ERROR_COLUMN_POS_IS_NULL>
+INFO	2016/05/17 09:28:00.906	src/ProductionAlerts.C	429	Skipping NULL or comment line ... <# PA00021	SET	IDD_CIMC_DB_SQL_ERROR_MULTIPLE_DATA_SETS>
+INFO	2016/05/17 09:28:00.906	src/ProductionAlerts.C	429	Skipping NULL or comment line ... <>
+INFO	2016/05/17 09:28:00.907	src/ProductionAlerts.C	429	last message repeated 40 times.
+INFO	2016/05/17 09:28:00.907	src/ProductionAlerts.C	429	Skipping NULL or comment line ... <# PA00062	SET	IDD_WIN_DBCONN	This is a Windows local alert not sent via event log message.>
+INFO	2016/05/17 09:28:00.907	src/ProductionAlerts.C	429	Skipping NULL or comment line ... <>
+INFO	2016/05/17 09:28:00.907	src/ProductionAlerts.C	429	Skipping NULL or comment line ... <# PA00063	SET	IDD_WIN_PMHOST	This is a Windows local alert not sent via event log message.>
+INFO	2016/05/17 09:28:00.907	src/ProductionAlerts.C	429	Skipping NULL or comment line ... <>
+INFO	2016/05/17 09:28:00.907	src/ProductionAlerts.C	429	last message repeated 14 times.
+INFO	2016/05/17 09:28:00.907	src/ProductionAlerts.C	429	Skipping NULL or comment line ... <# PA00078	SET	IDD_WIN_EVTLOG	This is a Windows local alert not sent via event log message. Event Logger daemon not connected to Post Master.>
+INFO	2016/05/17 09:28:00.907	src/ProductionAlerts.C	429	Skipping NULL or comment line ... <>
+INFO	2016/05/17 09:28:00.907	src/ProductionAlerts.C	429	Skipping NULL or comment line ... <# PA00079	SET	IDD_WIN_SYSCHK	This is a Windows local alert not sent via event log message.  System Checker daemon not connected to Post Master.>
+INFO	2016/05/17 09:28:00.907	src/ProductionAlerts.C	429	Skipping NULL or comment line ... <>
+INFO	2016/05/17 09:28:00.907	src/ProductionAlerts.C	500	last message repeated 17 times.
+INFO	2016/05/17 09:28:00.907	src/ProductionAlerts.C	500	Number of alert entries: 212
+INFO	2016/05/17 09:28:00.908	src/SysCheckerConfig.C	609	CONFIG_FILE=/etc/system_checker_daemon.cfg
+INFO	2016/05/17 09:28:00.908	src/SysCheckerConfig.C	609	DIAGNOSTICS_CONFIG_FILE=SystemCheckerDiagnostics.cfg
+INFO	2016/05/17 09:28:00.908	src/SysCheckerConfig.C	602	SANITY_TIMEOUT=10
+INFO	2016/05/17 09:28:00.908	src/SysCheckerConfig.C	602	DB_TIMEOUT=60
+INFO	2016/05/17 09:28:00.908	src/SysCheckerConfig.C	602	DB_SYNC_TIMEOUT=300
+INFO	2016/05/17 09:28:00.908	src/SysCheckerConfig.C	602	DB_MAX_DRIFT_SECS=30
+INFO	2016/05/17 09:28:00.908	src/SysCheckerConfig.C	602	CPU_DATA_INTERVAL=1200
+INFO	2016/05/17 09:28:00.908	src/SysCheckerConfig.C	602	USE_SUDO=0
+INFO	2016/05/17 09:28:00.908	src/SysCheckerConfig.C	602	DGS_PING_TIMEOUT=120
+INFO	2016/05/17 09:28:00.908	src/SysCheckerConfig.C	595	DGS_ACCESSIBLE_SYSCHK_ID=10140007
+INFO	2016/05/17 09:28:00.908	src/SysCheckerConfig.C	602	MAX_PROD_ALERT_AGE=3600
+INFO	2016/05/17 09:28:00.908	src/SysCheckerConfig.C	602	PROD_ALERT_AUTO_CLEAR_TIMEOUT=300
+INFO	2016/05/17 09:28:00.908	src/SysCheckerConfig.C	602	USE_LNB_STAGED_FILES=1
+INFO	2016/05/17 09:28:00.908	src/SysCheckerConfig.C	602	ONLY_ONE_DAEMON_ALLOWED=1
+INFO	2016/05/17 09:28:00.951	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Daemon] AppId=[0] MailboxId=[12] PID=[29730]
+INFO	2016/05/17 09:28:00.951	src/SysCheckerServer.C	277	NOT connected to Database
+INFO	2016/05/17 09:28:00.955	src/SysCheckerServer.C	1699	Able to connect to database
+INFO	2016/05/17 09:28:00.955	src/SysCheckerServer.C	1612	DB Event Id (24) fire for PA CLEAR Operation
+INFO	2016/05/17 09:28:00.962	src/SysCheckerServer.C	1784	Production Alerts are ... ENABLED
+DEBUG	2016/05/17 09:28:00.963	src/AppLogger.C	275	******************** STARTING DEBUG LOGGING ********************
+DEBUG	2016/05/17 09:30:00.975	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 09:30:00.976	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[30821] MailboxId=[13] PID=[30821]
+INFO	2016/05/17 09:30:01.034	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 09:30:01.034	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 09:30:01.035	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 09:30:01.104	src/SysCheckerServer.C	906	Broadcast Refresh MSG: SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+DEBUG	2016/05/17 09:32:00.111	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 09:32:00.112	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[31825] MailboxId=[14] PID=[31825]
+INFO	2016/05/17 09:32:00.181	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 09:32:00.181	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 09:32:00.181	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 09:33:00.185	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 09:33:00.186	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+INFO	2016/05/17 09:33:00.187	src/SysCheckerServer.C	906	Broadcast Refresh MSG: SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 09:34:00.193	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 09:34:00.234	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[376] MailboxId=[15] PID=[376]
+INFO	2016/05/17 09:34:00.288	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 09:34:00.288	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 09:34:00.289	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 09:36:00.297	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 09:36:00.337	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[1387] MailboxId=[16] PID=[1387]
+INFO	2016/05/17 09:36:00.390	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 09:36:00.390	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 09:36:00.391	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 09:38:00.396	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 09:38:00.396	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 09:38:00.398	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 09:38:00.436	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[2403] MailboxId=[17] PID=[2403]
+INFO	2016/05/17 09:38:00.492	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 09:38:00.492	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 09:38:00.493	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 09:40:00.500	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 09:40:00.541	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[3399] MailboxId=[18] PID=[3399]
+INFO	2016/05/17 09:40:00.594	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 09:40:00.594	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 09:40:00.595	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 09:42:00.606	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 09:42:00.636	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[4421] MailboxId=[19] PID=[4421]
+INFO	2016/05/17 09:42:00.694	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 09:42:00.695	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 09:42:00.697	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 09:43:00.703	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 09:43:00.703	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 09:44:00.713	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 09:44:00.753	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[5424] MailboxId=[20] PID=[5424]
+INFO	2016/05/17 09:44:00.807	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 09:44:00.807	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 09:44:00.807	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 09:46:00.818	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 09:46:00.859	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[6438] MailboxId=[21] PID=[6438]
+INFO	2016/05/17 09:46:00.912	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 09:46:00.912	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 09:46:00.912	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 09:48:00.925	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 09:48:00.926	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 09:48:00.928	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 09:48:00.966	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[7440] MailboxId=[22] PID=[7440]
+INFO	2016/05/17 09:48:01.020	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 09:48:01.020	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 09:48:01.020	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 09:50:00.028	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 09:50:00.028	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[8435] MailboxId=[23] PID=[8435]
+INFO	2016/05/17 09:50:00.083	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 09:50:00.083	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 09:50:00.083	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 09:52:00.095	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 09:52:00.125	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[9476] MailboxId=[24] PID=[9476]
+INFO	2016/05/17 09:52:00.179	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 09:52:00.179	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 09:52:00.181	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 09:53:00.189	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 09:53:00.190	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 09:54:00.203	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 09:54:00.243	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[10557] MailboxId=[25] PID=[10557]
+INFO	2016/05/17 09:54:00.296	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 09:54:00.296	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 09:54:00.297	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 09:56:00.312	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 09:56:00.352	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[11570] MailboxId=[26] PID=[11570]
+INFO	2016/05/17 09:56:00.405	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 09:56:00.405	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 09:56:00.406	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 09:58:00.416	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 09:58:00.417	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 09:58:00.419	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 09:58:00.457	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[12574] MailboxId=[27] PID=[12574]
+INFO	2016/05/17 09:58:00.510	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 09:58:00.510	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 09:58:00.511	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:00:00.525	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:00:00.526	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[13582] MailboxId=[28] PID=[13582]
+INFO	2016/05/17 10:00:00.580	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:00:00.580	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:00:00.581	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:02:00.594	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:02:00.620	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[14598] MailboxId=[29] PID=[14598]
+INFO	2016/05/17 10:02:00.677	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:02:00.677	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:02:00.677	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:03:00.680	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 10:03:00.681	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 10:04:00.695	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:04:00.735	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[15604] MailboxId=[30] PID=[15604]
+INFO	2016/05/17 10:04:00.789	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:04:00.789	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:04:00.790	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:06:00.801	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:06:00.841	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[16612] MailboxId=[31] PID=[16612]
+INFO	2016/05/17 10:06:00.895	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:06:00.895	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:06:00.895	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:08:00.901	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 10:08:00.901	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 10:08:00.903	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:08:00.903	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[17621] MailboxId=[32] PID=[17621]
+INFO	2016/05/17 10:08:00.972	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:08:00.972	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:08:00.973	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:10:00.984	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:10:00.984	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[18645] MailboxId=[33] PID=[18645]
+INFO	2016/05/17 10:10:01.044	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:10:01.044	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:10:01.045	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:12:00.055	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:12:00.082	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[19652] MailboxId=[34] PID=[19652]
+INFO	2016/05/17 10:12:00.136	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:12:00.137	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:12:00.139	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:13:00.147	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 10:13:00.147	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 10:14:00.156	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:14:00.196	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[20660] MailboxId=[35] PID=[20660]
+INFO	2016/05/17 10:14:00.250	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:14:00.250	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:14:00.252	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+DEBUG	2016/05/17 10:16:00.267	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:16:00.308	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[21678] MailboxId=[36] PID=[21678]
+INFO	2016/05/17 10:16:00.361	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:16:00.361	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:16:00.361	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:18:00.372	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 10:18:00.372	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 10:18:00.374	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:18:00.375	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[22684] MailboxId=[37] PID=[22684]
+INFO	2016/05/17 10:18:00.430	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:18:00.430	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:18:00.431	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:20:00.445	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:20:00.445	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[23690] MailboxId=[38] PID=[23690]
+INFO	2016/05/17 10:20:00.501	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:20:00.501	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:20:00.501	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:21:58.026	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:21:58.060	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[24671] MailboxId=[39] PID=[24671]
+INFO	2016/05/17 10:21:59.110	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:21:59.117	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:21:59.151	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[24696] MailboxId=[40] PID=[24696]
+DEBUG	2016/05/17 10:22:00.119	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:00.159	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[24703] MailboxId=[41] PID=[24703]
+INFO	2016/05/17 10:22:00.187	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:00.194	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:00.216	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:22:00.216	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:22:00.216	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:22:00.227	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[24710] MailboxId=[42] PID=[24710]
+INFO	2016/05/17 10:22:01.260	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:01.267	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:01.299	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[24737] MailboxId=[43] PID=[24737]
+INFO	2016/05/17 10:22:02.336	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:02.343	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:02.376	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[24746] MailboxId=[44] PID=[24746]
+INFO	2016/05/17 10:22:03.409	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:03.415	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:03.449	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[24762] MailboxId=[45] PID=[24762]
+INFO	2016/05/17 10:22:04.484	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:04.491	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:04.523	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[24780] MailboxId=[46] PID=[24780]
+INFO	2016/05/17 10:22:05.557	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:05.564	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:05.597	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[24787] MailboxId=[47] PID=[24787]
+INFO	2016/05/17 10:22:06.632	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:06.638	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:06.672	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[24814] MailboxId=[48] PID=[24814]
+INFO	2016/05/17 10:22:07.706	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:07.712	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:07.746	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[24823] MailboxId=[49] PID=[24823]
+INFO	2016/05/17 10:22:08.775	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:16.790	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:16.790	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[24910] MailboxId=[50] PID=[24910]
+ERROR	2016/05/17 10:22:16.795	src/LNBCfgDataFiles.C	769	Unable to read file /cimuser/mrumore/cim/pfadata/lnb/LNB/lnbroot/configuration/CurrentResourceProperty.ini
+ERROR	2016/05/17 10:22:16.795	src/LNBCfgDataFiles.C	448	Reading LNB Current Resource Property file failed for path /cimuser/mrumore/cim/pfadata/lnb/LNB/lnbroot/configuration/CurrentResourceProperty.ini
+INFO	2016/05/17 10:22:16.796	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:16.803	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:16.837	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[24912] MailboxId=[51] PID=[24912]
+ERROR	2016/05/17 10:22:16.841	src/LNBCfgDataFiles.C	769	Unable to read file /cimuser/mrumore/cim/pfadata/lnb/LNB/lnbroot/configuration/CurrentResourceProperty.ini
+ERROR	2016/05/17 10:22:16.841	src/LNBCfgDataFiles.C	448	Reading LNB Current Resource Property file failed for path /cimuser/mrumore/cim/pfadata/lnb/LNB/lnbroot/configuration/CurrentResourceProperty.ini
+INFO	2016/05/17 10:22:16.841	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:31.240	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:31.241	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25029] MailboxId=[52] PID=[25029]
+INFO	2016/05/17 10:22:46.259	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:46.264	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:46.296	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25163] MailboxId=[53] PID=[25163]
+INFO	2016/05/17 10:22:46.314	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:46.321	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:46.354	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25168] MailboxId=[54] PID=[25168]
+INFO	2016/05/17 10:22:46.372	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:46.377	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:46.410	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25173] MailboxId=[55] PID=[25173]
+INFO	2016/05/17 10:22:46.429	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:46.435	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:46.467	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25178] MailboxId=[56] PID=[25178]
+INFO	2016/05/17 10:22:46.484	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:46.491	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:46.524	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25183] MailboxId=[57] PID=[25183]
+INFO	2016/05/17 10:22:46.542	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:46.549	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:46.582	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25188] MailboxId=[58] PID=[25188]
+INFO	2016/05/17 10:22:46.583	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:46.594	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:46.623	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25189] MailboxId=[59] PID=[25189]
+INFO	2016/05/17 10:22:46.644	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120026, EVENT MNEMONIC = IDD_CIMC_SYS_MEM_USAGE_OK, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00066
+INFO	2016/05/17 10:22:46.644	src/SysCheckerServer.C	925	EventLogMsg received, CLEARED: EVENT ID = 10120026, EVENT MNEMONIC = IDD_CIMC_SYS_MEM_USAGE_OK, ENGLISH = NON-I/O MEMORY USAGE (%1$S%) < %2$S% (NON-IO AND SWAP = %3$S%) HOST=%4$S, ALERT_ID = PA00066
+INFO	2016/05/17 10:22:46.645	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:46.658	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:46.685	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25194] MailboxId=[60] PID=[25194]
+INFO	2016/05/17 10:22:46.732	src/SysCheckerServer.C	1011	EventLogMsg received: EVENT ID = 10120034, NO ALERT_ID
+INFO	2016/05/17 10:22:46.733	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:46.742	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:46.772	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25217] MailboxId=[61] PID=[25217]
+INFO	2016/05/17 10:22:46.788	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:46.796	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:46.828	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25231] MailboxId=[62] PID=[25231]
+INFO	2016/05/17 10:22:46.845	src/SysCheckerServer.C	1011	EventLogMsg received: EVENT ID = 10120030, NO ALERT_ID
+INFO	2016/05/17 10:22:46.845	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:46.851	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:46.885	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25236] MailboxId=[63] PID=[25236]
+INFO	2016/05/17 10:22:47.399	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:47.405	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:47.439	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25243] MailboxId=[64] PID=[25243]
+INFO	2016/05/17 10:22:47.456	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:47.462	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:47.494	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25247] MailboxId=[65] PID=[25247]
+INFO	2016/05/17 10:22:47.558	src/SysCheckerServer.C	1011	EventLogMsg received: EVENT ID = 10120034, NO ALERT_ID
+INFO	2016/05/17 10:22:47.559	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:47.565	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:47.597	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25267] MailboxId=[66] PID=[25267]
+INFO	2016/05/17 10:22:47.614	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:22:47.619	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:22:47.652	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25271] MailboxId=[67] PID=[25271]
+INFO	2016/05/17 10:22:47.666	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:23:00.618	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 10:23:00.619	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 10:23:45.541	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:23:45.574	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25757] MailboxId=[68] PID=[25757]
+INFO	2016/05/17 10:23:45.643	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:23:45.648	src/SysCheckerServer.C	1495	Able to connect to database
+INFO	2016/05/17 10:23:45.648	src/SysCheckerServer.C	1612	DB Event Id (12984640) fire for PA CLEAR Operation
+INFO	2016/05/17 10:23:45.654	src/SysCheckerServer.C	1784	Production Alerts are ... ENABLED
+DEBUG	2016/05/17 10:23:45.655	src/AppLogger.C	275	******************** STARTING DEBUG LOGGING ********************
+DEBUG	2016/05/17 10:23:45.662	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:23:45.681	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25763] MailboxId=[69] PID=[25763]
+DEBUG	2016/05/17 10:24:00.662	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:00.703	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25897] MailboxId=[70] PID=[25897]
+INFO	2016/05/17 10:24:00.755	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:24:00.755	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:24:00.756	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:24:15.708	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:15.714	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:15.714	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26028] MailboxId=[71] PID=[26028]
+INFO	2016/05/17 10:24:15.721	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:23.398	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:23.399	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26096] MailboxId=[72] PID=[26096]
+INFO	2016/05/17 10:24:23.406	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:31.956	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:31.956	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26166] MailboxId=[73] PID=[26166]
+INFO	2016/05/17 10:24:31.963	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:31.970	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.003	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26170] MailboxId=[74] PID=[26170]
+INFO	2016/05/17 10:24:32.010	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.018	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.051	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26174] MailboxId=[75] PID=[26174]
+INFO	2016/05/17 10:24:32.058	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.064	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.097	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26178] MailboxId=[76] PID=[26178]
+INFO	2016/05/17 10:24:32.105	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.111	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.144	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26182] MailboxId=[77] PID=[26182]
+INFO	2016/05/17 10:24:32.153	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.159	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.191	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26186] MailboxId=[78] PID=[26186]
+INFO	2016/05/17 10:24:32.201	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.207	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.239	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26190] MailboxId=[79] PID=[26190]
+INFO	2016/05/17 10:24:32.246	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.252	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.285	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26194] MailboxId=[80] PID=[26194]
+INFO	2016/05/17 10:24:32.292	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.299	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.332	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26198] MailboxId=[81] PID=[26198]
+INFO	2016/05/17 10:24:32.338	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.345	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.378	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26202] MailboxId=[82] PID=[26202]
+INFO	2016/05/17 10:24:32.385	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.392	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.426	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26206] MailboxId=[83] PID=[26206]
+INFO	2016/05/17 10:24:32.432	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.439	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.471	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26210] MailboxId=[84] PID=[26210]
+INFO	2016/05/17 10:24:32.478	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.484	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.518	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26214] MailboxId=[85] PID=[26214]
+INFO	2016/05/17 10:24:32.525	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.532	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.565	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26227] MailboxId=[86] PID=[26227]
+INFO	2016/05/17 10:24:32.575	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.581	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.612	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26231] MailboxId=[87] PID=[26231]
+INFO	2016/05/17 10:24:32.619	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.626	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.659	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26235] MailboxId=[88] PID=[26235]
+INFO	2016/05/17 10:24:32.668	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.675	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.706	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26239] MailboxId=[89] PID=[26239]
+INFO	2016/05/17 10:24:32.712	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.719	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.752	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26243] MailboxId=[90] PID=[26243]
+INFO	2016/05/17 10:24:32.760	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.766	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.799	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26247] MailboxId=[91] PID=[26247]
+INFO	2016/05/17 10:24:32.807	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.813	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.847	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26251] MailboxId=[92] PID=[26251]
+INFO	2016/05/17 10:24:32.853	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.860	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.893	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26255] MailboxId=[93] PID=[26255]
+INFO	2016/05/17 10:24:32.901	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.907	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.941	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26259] MailboxId=[94] PID=[26259]
+INFO	2016/05/17 10:24:32.951	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:32.958	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:32.991	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26264] MailboxId=[95] PID=[26264]
+INFO	2016/05/17 10:24:33.002	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.012	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:33.041	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26270] MailboxId=[96] PID=[26270]
+INFO	2016/05/17 10:24:33.054	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.060	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:33.092	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26283] MailboxId=[97] PID=[26283]
+INFO	2016/05/17 10:24:33.104	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.111	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:33.145	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26288] MailboxId=[98] PID=[26288]
+INFO	2016/05/17 10:24:33.155	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.161	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:33.195	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26293] MailboxId=[99] PID=[26293]
+INFO	2016/05/17 10:24:33.206	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.212	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:33.246	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26298] MailboxId=[100] PID=[26298]
+INFO	2016/05/17 10:24:33.256	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.263	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:33.296	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26303] MailboxId=[101] PID=[26303]
+INFO	2016/05/17 10:24:33.337	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.344	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:33.377	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26308] MailboxId=[102] PID=[26308]
+INFO	2016/05/17 10:24:33.401	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.406	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:33.438	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26313] MailboxId=[103] PID=[26313]
+INFO	2016/05/17 10:24:33.461	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.464	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:33.497	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26318] MailboxId=[104] PID=[26318]
+INFO	2016/05/17 10:24:33.516	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.518	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:33.551	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26322] MailboxId=[105] PID=[26322]
+INFO	2016/05/17 10:24:33.564	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.571	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:33.604	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26328] MailboxId=[106] PID=[26328]
+INFO	2016/05/17 10:24:33.630	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.632	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:33.665	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26333] MailboxId=[107] PID=[26333]
+INFO	2016/05/17 10:24:33.682	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.689	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:33.722	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26337] MailboxId=[108] PID=[26337]
+INFO	2016/05/17 10:24:33.738	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.744	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:33.776	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26341] MailboxId=[109] PID=[26341]
+INFO	2016/05/17 10:24:33.796	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.801	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:33.833	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26345] MailboxId=[110] PID=[26345]
+INFO	2016/05/17 10:24:33.848	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.854	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:33.887	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26349] MailboxId=[111] PID=[26349]
+INFO	2016/05/17 10:24:33.903	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.909	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:33.941	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26353] MailboxId=[112] PID=[26353]
+INFO	2016/05/17 10:24:33.962	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:33.968	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:34.001	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26358] MailboxId=[113] PID=[26358]
+INFO	2016/05/17 10:24:34.022	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:34.028	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:34.060	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26363] MailboxId=[114] PID=[26363]
+INFO	2016/05/17 10:24:34.081	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:34.087	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:34.119	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26368] MailboxId=[115] PID=[26368]
+INFO	2016/05/17 10:24:34.140	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:34.151	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:34.179	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26373] MailboxId=[116] PID=[26373]
+INFO	2016/05/17 10:24:34.199	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:34.205	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:34.238	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26378] MailboxId=[117] PID=[26378]
+INFO	2016/05/17 10:24:34.259	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:34.265	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:34.298	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26383] MailboxId=[118] PID=[26383]
+INFO	2016/05/17 10:24:34.319	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:34.326	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:34.358	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26388] MailboxId=[119] PID=[26388]
+INFO	2016/05/17 10:24:34.378	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:34.385	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:34.419	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26393] MailboxId=[120] PID=[26393]
+INFO	2016/05/17 10:24:34.535	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:34.542	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:34.575	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26399] MailboxId=[121] PID=[26399]
+INFO	2016/05/17 10:24:34.678	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:34.684	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:34.718	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26405] MailboxId=[122] PID=[26405]
+INFO	2016/05/17 10:24:34.818	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:34.825	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:34.858	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26411] MailboxId=[123] PID=[26411]
+INFO	2016/05/17 10:24:34.957	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:34.962	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:34.995	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26417] MailboxId=[124] PID=[26417]
+INFO	2016/05/17 10:24:35.096	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:35.101	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:35.134	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26432] MailboxId=[125] PID=[26432]
+INFO	2016/05/17 10:24:35.148	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:35.157	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:35.188	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26436] MailboxId=[126] PID=[26436]
+INFO	2016/05/17 10:24:35.201	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:24:35.208	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:24:35.241	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26440] MailboxId=[127] PID=[26440]
+INFO	2016/05/17 10:24:35.257	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:25:40.899	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:25:40.899	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27000] MailboxId=[128] PID=[27000]
+INFO	2016/05/17 10:25:40.908	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:00.903	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:00.943	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27164] MailboxId=[129] PID=[27164]
+INFO	2016/05/17 10:26:00.997	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:26:00.997	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:26:00.998	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:35.601	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:35.601	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27469] MailboxId=[130] PID=[27469]
+INFO	2016/05/17 10:26:35.709	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:35.717	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:35.749	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27473] MailboxId=[131] PID=[27473]
+INFO	2016/05/17 10:26:35.855	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:35.861	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:35.894	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27477] MailboxId=[132] PID=[27477]
+INFO	2016/05/17 10:26:36.001	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:36.008	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:36.041	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27481] MailboxId=[133] PID=[27481]
+INFO	2016/05/17 10:26:36.146	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:36.153	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:36.186	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27485] MailboxId=[134] PID=[27485]
+INFO	2016/05/17 10:26:36.295	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:36.299	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:36.332	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27489] MailboxId=[135] PID=[27489]
+INFO	2016/05/17 10:26:36.445	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:36.453	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:36.479	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27498] MailboxId=[136] PID=[27498]
+INFO	2016/05/17 10:26:36.589	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:36.596	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:36.628	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27506] MailboxId=[137] PID=[27506]
+INFO	2016/05/17 10:26:36.735	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:36.741	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:36.773	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27510] MailboxId=[138] PID=[27510]
+INFO	2016/05/17 10:26:36.881	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:36.888	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:36.922	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27514] MailboxId=[139] PID=[27514]
+INFO	2016/05/17 10:26:37.043	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:37.050	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:37.083	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27529] MailboxId=[140] PID=[27529]
+INFO	2016/05/17 10:26:37.192	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:37.200	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:37.233	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27533] MailboxId=[141] PID=[27533]
+INFO	2016/05/17 10:26:37.248	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:37.256	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:37.288	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27537] MailboxId=[142] PID=[27537]
+INFO	2016/05/17 10:26:37.302	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:37.309	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:37.342	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27541] MailboxId=[143] PID=[27541]
+INFO	2016/05/17 10:26:37.355	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:37.364	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:37.395	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27545] MailboxId=[144] PID=[27545]
+INFO	2016/05/17 10:26:37.413	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:37.418	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:37.450	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27549] MailboxId=[145] PID=[27549]
+INFO	2016/05/17 10:26:37.465	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:37.471	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:37.503	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27553] MailboxId=[146] PID=[27553]
+INFO	2016/05/17 10:26:37.519	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:37.524	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:37.557	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27559] MailboxId=[147] PID=[27559]
+INFO	2016/05/17 10:26:37.586	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:37.590	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:37.623	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27563] MailboxId=[148] PID=[27563]
+INFO	2016/05/17 10:26:37.648	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:37.654	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:37.687	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27567] MailboxId=[149] PID=[27567]
+INFO	2016/05/17 10:26:37.712	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:37.718	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:37.750	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27571] MailboxId=[150] PID=[27571]
+INFO	2016/05/17 10:26:37.778	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:37.784	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:37.816	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27575] MailboxId=[151] PID=[27575]
+INFO	2016/05/17 10:26:37.842	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:37.848	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:37.880	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27579] MailboxId=[152] PID=[27579]
+INFO	2016/05/17 10:26:37.902	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:37.910	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:37.942	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27583] MailboxId=[153] PID=[27583]
+INFO	2016/05/17 10:26:37.967	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:37.974	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:38.007	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27588] MailboxId=[154] PID=[27588]
+INFO	2016/05/17 10:26:38.038	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:38.045	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:38.079	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27593] MailboxId=[155] PID=[27593]
+INFO	2016/05/17 10:26:38.100	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:38.107	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:38.140	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27598] MailboxId=[156] PID=[27598]
+INFO	2016/05/17 10:26:38.162	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:38.169	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:38.202	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27603] MailboxId=[157] PID=[27603]
+INFO	2016/05/17 10:26:38.224	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:38.231	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:38.264	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27608] MailboxId=[158] PID=[27608]
+INFO	2016/05/17 10:26:38.287	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:38.294	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:38.327	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27613] MailboxId=[159] PID=[27613]
+INFO	2016/05/17 10:26:38.384	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:38.391	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:38.424	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27633] MailboxId=[160] PID=[27633]
+INFO	2016/05/17 10:26:38.462	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:38.469	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:38.502	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27638] MailboxId=[161] PID=[27638]
+INFO	2016/05/17 10:26:38.522	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:38.532	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:38.562	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27643] MailboxId=[162] PID=[27643]
+INFO	2016/05/17 10:26:38.579	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:38.586	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:38.619	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27648] MailboxId=[163] PID=[27648]
+INFO	2016/05/17 10:26:38.631	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:38.638	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:38.671	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27652] MailboxId=[164] PID=[27652]
+INFO	2016/05/17 10:26:38.685	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:38.692	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:38.725	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27656] MailboxId=[165] PID=[27656]
+INFO	2016/05/17 10:26:38.745	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:38.752	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:38.785	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27661] MailboxId=[166] PID=[27661]
+INFO	2016/05/17 10:26:38.800	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:38.807	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:38.839	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27665] MailboxId=[167] PID=[27665]
+INFO	2016/05/17 10:26:38.853	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:38.860	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:38.893	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27669] MailboxId=[168] PID=[27669]
+INFO	2016/05/17 10:26:38.907	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:38.915	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:38.947	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27673] MailboxId=[169] PID=[27673]
+INFO	2016/05/17 10:26:38.967	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:38.973	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:39.003	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27681] MailboxId=[170] PID=[27681]
+INFO	2016/05/17 10:26:39.017	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:39.024	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:39.057	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27690] MailboxId=[171] PID=[27690]
+INFO	2016/05/17 10:26:39.076	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:39.083	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:39.117	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27695] MailboxId=[172] PID=[27695]
+INFO	2016/05/17 10:26:39.136	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:39.143	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:39.176	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27700] MailboxId=[173] PID=[27700]
+INFO	2016/05/17 10:26:39.196	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:39.204	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:39.236	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27705] MailboxId=[174] PID=[27705]
+INFO	2016/05/17 10:26:39.257	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:39.262	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:39.295	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27710] MailboxId=[175] PID=[27710]
+INFO	2016/05/17 10:26:39.314	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:39.322	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:39.354	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27715] MailboxId=[176] PID=[27715]
+INFO	2016/05/17 10:26:39.378	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:39.381	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:39.414	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27720] MailboxId=[177] PID=[27720]
+INFO	2016/05/17 10:26:39.434	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:39.441	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:39.473	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27725] MailboxId=[178] PID=[27725]
+INFO	2016/05/17 10:26:39.492	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:39.505	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:39.532	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27737] MailboxId=[179] PID=[27737]
+INFO	2016/05/17 10:26:39.625	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:39.632	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:39.665	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27745] MailboxId=[180] PID=[27745]
+INFO	2016/05/17 10:26:39.764	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:39.771	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:39.802	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27751] MailboxId=[181] PID=[27751]
+INFO	2016/05/17 10:26:39.901	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:39.908	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:39.940	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27757] MailboxId=[182] PID=[27757]
+INFO	2016/05/17 10:26:40.035	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:40.041	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:40.074	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27765] MailboxId=[183] PID=[27765]
+INFO	2016/05/17 10:26:40.170	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:40.176	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:40.209	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27771] MailboxId=[184] PID=[27771]
+INFO	2016/05/17 10:26:40.224	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:40.230	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:40.262	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27775] MailboxId=[185] PID=[27775]
+INFO	2016/05/17 10:26:40.279	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:26:40.285	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:26:40.317	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27779] MailboxId=[186] PID=[27779]
+INFO	2016/05/17 10:26:40.333	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:27:49.464	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:27:49.496	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[28353] MailboxId=[187] PID=[28353]
+INFO	2016/05/17 10:27:49.512	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:27:49.519	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:27:49.552	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[28357] MailboxId=[188] PID=[28357]
+INFO	2016/05/17 10:27:49.605	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:27:49.614	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:27:49.645	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[28362] MailboxId=[189] PID=[28362]
+INFO	2016/05/17 10:27:49.881	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:27:49.889	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:27:49.921	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[28372] MailboxId=[190] PID=[28372]
+INFO	2016/05/17 10:27:49.925	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:27:49.932	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:27:49.964	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[28373] MailboxId=[191] PID=[28373]
+INFO	2016/05/17 10:27:49.987	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:27:49.994	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:27:50.027	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[28374] MailboxId=[192] PID=[28374]
+INFO	2016/05/17 10:27:50.078	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:27:50.078	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:27:50.079	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:28:00.083	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 10:28:00.083	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 10:28:00.085	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:28:00.124	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[28463] MailboxId=[193] PID=[28463]
+INFO	2016/05/17 10:28:00.177	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:28:00.177	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:28:00.178	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:28:06.807	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:28:06.807	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[28521] MailboxId=[194] PID=[28521]
+INFO	2016/05/17 10:28:06.823	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:28:06.829	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:28:06.863	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[28525] MailboxId=[195] PID=[28525]
+INFO	2016/05/17 10:28:06.879	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:28:06.886	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:28:06.919	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[28531] MailboxId=[196] PID=[28531]
+INFO	2016/05/17 10:28:06.932	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:30:00.362	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:30:00.402	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[29485] MailboxId=[197] PID=[29485]
+INFO	2016/05/17 10:30:00.460	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:30:00.460	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:30:00.460	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:32:00.469	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:32:00.498	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[30544] MailboxId=[198] PID=[30544]
+INFO	2016/05/17 10:32:00.551	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:32:00.552	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:32:00.552	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:33:00.556	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 10:33:00.556	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 10:34:00.563	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:34:00.603	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[31555] MailboxId=[199] PID=[31555]
+INFO	2016/05/17 10:34:00.657	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:34:00.657	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:34:00.657	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:36:00.665	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:36:00.706	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[32552] MailboxId=[200] PID=[32552]
+INFO	2016/05/17 10:36:00.780	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:36:00.780	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:36:00.780	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:38:00.790	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 10:38:00.790	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 10:38:00.792	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:38:00.830	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[1110] MailboxId=[201] PID=[1110]
+INFO	2016/05/17 10:38:00.886	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:38:00.886	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:38:00.887	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:40:00.898	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:40:00.941	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[2105] MailboxId=[202] PID=[2105]
+INFO	2016/05/17 10:40:01.007	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:40:01.007	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:40:01.007	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+DEBUG	2016/05/17 10:42:00.024	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:42:00.046	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[3118] MailboxId=[203] PID=[3118]
+INFO	2016/05/17 10:42:00.103	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:42:00.104	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:42:00.106	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:43:00.110	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 10:43:00.110	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 10:44:00.117	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:44:00.157	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[4123] MailboxId=[204] PID=[4123]
+INFO	2016/05/17 10:44:00.212	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:44:00.213	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:44:00.213	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+DEBUG	2016/05/17 10:46:00.221	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:46:00.266	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[5130] MailboxId=[205] PID=[5130]
+INFO	2016/05/17 10:46:00.321	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:46:00.321	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:46:00.321	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:48:00.327	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 10:48:00.327	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 10:48:00.329	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:48:00.329	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[6144] MailboxId=[206] PID=[6144]
+INFO	2016/05/17 10:48:00.384	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:48:00.384	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:48:00.384	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:50:00.391	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:50:00.392	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[7142] MailboxId=[207] PID=[7142]
+INFO	2016/05/17 10:50:00.447	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:50:00.447	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:50:00.448	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 10:52:00.461	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:52:00.485	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[8160] MailboxId=[208] PID=[8160]
+INFO	2016/05/17 10:52:00.540	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:52:00.540	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:52:00.542	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:53:00.548	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 10:53:00.548	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 10:54:00.556	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:54:00.596	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[9174] MailboxId=[209] PID=[9174]
+INFO	2016/05/17 10:54:00.649	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:54:00.650	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:54:00.652	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+DEBUG	2016/05/17 10:56:00.667	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:56:00.707	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[10262] MailboxId=[210] PID=[10262]
+INFO	2016/05/17 10:56:00.760	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:56:00.760	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:56:00.761	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 10:58:00.766	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 10:58:00.766	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 10:58:00.768	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 10:58:00.768	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[11282] MailboxId=[211] PID=[11282]
+INFO	2016/05/17 10:58:00.821	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 10:58:00.821	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 10:58:00.821	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 11:00:00.829	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:00:00.829	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[12294] MailboxId=[212] PID=[12294]
+INFO	2016/05/17 11:00:00.885	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:00:00.885	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:00:00.885	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 11:02:00.893	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:02:00.923	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[13310] MailboxId=[213] PID=[13310]
+INFO	2016/05/17 11:02:00.980	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:02:00.980	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:02:00.980	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 11:03:00.988	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 11:03:00.988	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 11:04:00.999	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:04:01.027	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[14324] MailboxId=[214] PID=[14324]
+INFO	2016/05/17 11:04:01.083	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 11:04:01.084	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:04:01.085	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+DEBUG	2016/05/17 11:06:00.094	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:06:00.134	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[15321] MailboxId=[215] PID=[15321]
+INFO	2016/05/17 11:06:00.187	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:06:00.187	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:06:00.188	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 11:08:00.199	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 11:08:00.199	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 11:08:00.201	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:08:00.239	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[16321] MailboxId=[216] PID=[16321]
+INFO	2016/05/17 11:08:00.294	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:08:00.294	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:08:00.295	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 11:10:00.307	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:10:00.308	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[17333] MailboxId=[217] PID=[17333]
+INFO	2016/05/17 11:10:00.363	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:10:00.363	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:10:00.364	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 11:12:00.379	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:12:00.403	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[18338] MailboxId=[218] PID=[18338]
+INFO	2016/05/17 11:12:00.458	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:12:00.458	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:12:00.459	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 11:13:00.462	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 11:13:00.462	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 11:14:00.469	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:14:00.509	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[19353] MailboxId=[219] PID=[19353]
+INFO	2016/05/17 11:14:00.564	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:14:00.564	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:14:00.565	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 11:16:00.572	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:16:00.613	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[20353] MailboxId=[220] PID=[20353]
+INFO	2016/05/17 11:16:00.666	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:16:00.666	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:16:00.667	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 11:18:00.672	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 11:18:00.672	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 11:18:00.674	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:18:00.674	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[21362] MailboxId=[221] PID=[21362]
+INFO	2016/05/17 11:18:00.727	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:18:00.727	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:18:00.728	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 11:20:00.740	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:20:00.740	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[22364] MailboxId=[222] PID=[22364]
+INFO	2016/05/17 11:20:00.796	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:20:00.796	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:20:00.796	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 11:22:00.811	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:22:00.837	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[23380] MailboxId=[223] PID=[23380]
+INFO	2016/05/17 11:22:00.890	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:22:00.890	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:22:00.891	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 11:23:00.894	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 11:23:00.894	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 11:24:00.902	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:24:00.941	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[24383] MailboxId=[224] PID=[24383]
+INFO	2016/05/17 11:24:00.997	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:24:00.997	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:24:00.997	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 11:26:00.010	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:26:00.010	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[25380] MailboxId=[225] PID=[25380]
+INFO	2016/05/17 11:26:00.067	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:26:00.067	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:26:00.068	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 11:28:00.083	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 11:28:00.083	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 11:28:00.085	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:28:00.106	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[26386] MailboxId=[226] PID=[26386]
+INFO	2016/05/17 11:28:00.162	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:28:00.162	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:28:00.162	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 11:30:00.172	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:30:00.173	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[27393] MailboxId=[227] PID=[27393]
+INFO	2016/05/17 11:30:00.226	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:30:00.226	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:30:00.227	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 11:32:00.233	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:32:00.265	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[28397] MailboxId=[228] PID=[28397]
+INFO	2016/05/17 11:32:00.320	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:32:00.320	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:32:00.320	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 11:33:00.325	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 11:33:00.325	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 11:34:00.335	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:34:00.375	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[29416] MailboxId=[229] PID=[29416]
+INFO	2016/05/17 11:34:00.429	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:34:00.429	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:34:00.430	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 11:36:00.444	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:36:00.484	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[30463] MailboxId=[230] PID=[30463]
+INFO	2016/05/17 11:36:00.541	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:36:00.541	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:36:00.541	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 11:38:00.550	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 11:38:00.550	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 11:38:00.553	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:38:00.591	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[31479] MailboxId=[231] PID=[31479]
+INFO	2016/05/17 11:38:00.645	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:38:00.645	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:38:00.646	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 11:40:00.658	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:40:00.659	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[32477] MailboxId=[232] PID=[32477]
+INFO	2016/05/17 11:40:00.715	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:40:00.715	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:40:00.716	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 11:42:00.727	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:42:00.754	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[1036] MailboxId=[233] PID=[1036]
+INFO	2016/05/17 11:42:00.809	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:42:00.809	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:42:00.810	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 11:43:00.813	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 11:43:00.813	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 11:44:00.819	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:44:00.859	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[2036] MailboxId=[234] PID=[2036]
+INFO	2016/05/17 11:44:00.918	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:44:00.919	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:44:00.919	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 11:46:00.926	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:46:00.966	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[3050] MailboxId=[235] PID=[3050]
+INFO	2016/05/17 11:46:01.020	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:46:01.020	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:46:01.021	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 11:48:00.030	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 11:48:00.030	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 11:48:00.032	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:48:00.070	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[4047] MailboxId=[236] PID=[4047]
+INFO	2016/05/17 11:48:00.126	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:48:00.126	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:48:00.127	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 11:50:00.140	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:50:00.140	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[5052] MailboxId=[237] PID=[5052]
+INFO	2016/05/17 11:50:00.196	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:50:00.196	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:50:00.197	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 11:52:00.204	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:52:00.236	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[6070] MailboxId=[238] PID=[6070]
+INFO	2016/05/17 11:52:00.291	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:52:00.291	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:52:00.291	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 11:53:00.295	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 11:53:00.295	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 11:54:00.303	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:54:00.344	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[7070] MailboxId=[239] PID=[7070]
+INFO	2016/05/17 11:54:00.402	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:54:00.402	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:54:00.402	src/SysLogger.C	373	DONE: Application exited
+DEBUG	2016/05/17 11:56:00.411	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:56:00.452	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[8084] MailboxId=[240] PID=[8084]
+INFO	2016/05/17 11:56:00.507	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:56:00.507	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:56:00.507	src/SysLogger.C	373	DONE: Application exited
+INFO	2016/05/17 11:58:00.513	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Daemon, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00077
+INFO	2016/05/17 11:58:00.513	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10170043, EVENT MNEMONIC = IDD_CIMC_DB_TIME_SYNC_TOO_BIG, ENGLISH = CIMC/DB TIME DIFFERENCE %1$S SECONDS GREATER THAN MAXIMUM %2$S SECONDS, ALERT_ID = PA00077
+DEBUG	2016/05/17 11:58:00.515	src/SocketClient.C	413	SocketClient init OK after initial connect + getsockopt ok
+INFO	2016/05/17 11:58:00.515	src/EventTriggerMgr.C	133	IDENT: AppName=[System Checker Slave] AppId=[9096] MailboxId=[241] PID=[9096]
+INFO	2016/05/17 11:58:00.571	src/SysCheckerServer.C	836	EventLogMsg received: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, HOSTNAME = mar-rhel5-dev, SERVICE_NAME = System Checker Slave, ROUTE_NAME = , RESOURCE_PATH = , ALERT_ID = PA00080
+INFO	2016/05/17 11:58:00.571	src/SysCheckerServer.C	848	EventLogMsg received, SET: EVENT ID = 10120037, EVENT MNEMONIC = IDD_CIMC_SYS_SYSCK_PING_DGS_NO_IPS, ENGLISH = ERROR: DGS HOSTS WITHOUT IPS: %1$S, ALERT_ID = PA00080
+INFO	2016/05/17 11:58:00.571	src/SysLogger.C	373	DONE: Application exited
+ERROR	2016/05/17 11:58:29.661	src/SysCheckerServer.C	596	Reading from postmaster failed.
+ERROR	2016/05/17 11:58:29.679	src/EventTriggerMgr.C	342	Unable to send Event Trigger message. Exiting...
+INFO	2016/05/17 11:58:29.680	src/SysLogger.C	373	DONE: Application exited
